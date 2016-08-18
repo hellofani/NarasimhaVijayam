@@ -9,7 +9,6 @@ white: #fff2f2;
 green: #bcdbc5;
 red:  #ff6b68;
 */
-
 body {
 	background-color:#bcdbc5;/* green*/
 	margin-top:0px;
@@ -28,6 +27,24 @@ yati{
 	color:#FF0004;
 	text-decoration:underline;
 }
+
+a:link {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
 #navigation {
 	position:fixed;
 	top:0;
