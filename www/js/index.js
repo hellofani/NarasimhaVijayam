@@ -47,3 +47,20 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+// Onesignal code.
+
+document.addEventListener('deviceready', function () {
+  // Enable to debug issues.
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+  var notificationOpenedCallback = function(jsonData) {
+    console.log('didReceiveRemoteNotificationCallBack: ' + JSON.stringify(jsonData));
+  };
+
+  window.plugins.OneSignal.init("5bb28364-6c20-4eba-8084-f6dec34f9200",
+                                 {googleProjectNumber: "999515053179"},
+                                 notificationOpenedCallback);
+  
+  // Show an alert box if a notification comes in when the user is in your app.
+  window.plugins.OneSignal.enableInAppAlertNotification(true);
+}, false);

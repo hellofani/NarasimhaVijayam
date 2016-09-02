@@ -45,6 +45,9 @@
         },
         "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "com.fani.narasimha"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.fani.narasimha"
         }
     },
     "dependent_plugins": {
