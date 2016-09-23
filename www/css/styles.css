@@ -10,6 +10,10 @@ green: #bcdbc5;
 red:  #ff6b68;
 */
 body {
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: text;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	user-select: text;
 	background-color:#bcdbc5;/* green*/
 	margin-top:0px;
 	margin-bottom:0px;
@@ -126,10 +130,29 @@ a:active {
 
 @media screen and (max-width:320px){
 body {
+	font-size: 95%;
+}
+#navigation {
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+}
+@media screen and (min-width:321px) and (max-width:480px){
+	body {
 	font-size: 90%;
 }
 #navigation {
 	padding-top: 25px;
+	padding-bottom: 5px;
+}
+}
+
+@media screen and (min-width:750px) and (orientation:portrait){
+	body {
+	font-size: 100%;
+}
+#navigation {
+	padding-top: 40px;
 	padding-bottom: 5px;
 }
 }
