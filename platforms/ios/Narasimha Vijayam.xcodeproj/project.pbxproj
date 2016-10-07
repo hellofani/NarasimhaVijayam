@@ -5,10 +5,8 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		13D4FE78E9E943E8BBCC32C1 /* OneSignalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92652FCEFB4418A1212502 /* OneSignalPush.m */; };
 		1A58CB0ED75A4096BC1435C0 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2925D518D3594E8F86E2D271 /* CDVNotification.bundle */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -17,10 +15,8 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		33920CC95A85450CA431B309 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2AEBDEF640430CB94ECA98 /* CDVFile.m */; };
-		3E2F1E8E29644DD899F4A1E1 /* OneSignalJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FF2CE1ED4F4F0CB16A06F1 /* OneSignalJailbreakDetection.m */; };
 		3E47FE0CE64F4DED9156E85C /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3A353CA1E4CB6A3D131CC /* CDVNotification.m */; };
 		43F31C902D334522B3EBD0B5 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CD56761FED4B7B82D332A3 /* CDVFileTransfer.m */; };
-		4472B0F20665455A9FAE847F /* OneSignalLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F9728EDE9843AB8A44360C /* OneSignalLocation.m */; };
 		4495FDFFD33940A984F7AA8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75EA4A2FA5B46FF859ABBFC /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		48FCFC1CBEB5433AAF283B63 /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B30BFF13DF4DCD915AE9D3 /* CDVCompass.m */; };
 		497277B5042C4545AC164FF4 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDE5670E12448BAAE4B8EF5 /* CDVReachability.m */; };
@@ -35,18 +31,13 @@
 		81289EB3B5BB45369CEB4100 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F636D5FEE54440B6D0BE6A /* CDVSplashScreen.m */; };
 		815084BA58E14195AD81C1D9 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771DB308A3974A30BF69DBFF /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		86BD262748BD492491CF7F8A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B264302E9D4170A179AE2B /* CoreLocation.framework */; };
-		8954593C113F4566838885C6 /* OneSignalMobileProvision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3981DCE1B4B639BB38775 /* OneSignalMobileProvision.m */; };
 		8B858DFE96214D65B1D19FAA /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C38121CEFD74133BDA2E62F /* CDVViewController+SplashScreen.m */; };
 		93386CC3A8C14CDC826D69F3 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238D0C2C1494E0BBB224EF8 /* CDVInAppBrowser.m */; };
 		98AFB96B69044A9C927C7B1C /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D75300E42432FA236A01E /* CDVSound.m */; };
-		9FC4444229484911BBB79734 /* OneSignalReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 152E20283B03470DB989C0DA /* OneSignalReachability.m */; };
 		AC80B25455BB4DFC8A9401CF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA7A828BE0B4EC3B85D16D6 /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B146E69213BD453CBABFCBAE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD657FA276DD47EB833C3701 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		C69E6A63FEF94A7BA107B5F8 /* OneSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9166F0BE774170B2D193F6 /* OneSignal.m */; };
 		CA991D2D174B4DF788CB4AE4 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A08A7CDC9349DF99E85C1C /* CDVAssetLibraryFilesystem.m */; };
-		D6EF38CEAA364CE4A97CBFBA /* OneSignalTrackIAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 890A3A8009A748BD858F53B7 /* OneSignalTrackIAP.m */; };
 		DCB0698BAB2F48EF9FCBAAAB /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A1E09C7794EC8B9CFD9E5 /* CDVStatusBar.m */; };
-		FAA45118C7E84F74A23066E0 /* OneSignalHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F706960727C42D0971B661D /* OneSignalHTTPClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,12 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01652CFA3177428BBBEFF573 /* OneSignalHTTPClient.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalHTTPClient.h; path = "onesignal-cordova-plugin/OneSignalHTTPClient.h"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Narasimha Vijayam/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		10B30BFF13DF4DCD915AE9D3 /* CDVCompass.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVCompass.m; path = "cordova-plugin-device-orientation/CDVCompass.m"; sourceTree = "<group>"; };
-		11EC9AE0BC9448FBB0D93A4D /* OneSignalMobileProvision.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalMobileProvision.h; path = "onesignal-cordova-plugin/OneSignalMobileProvision.h"; sourceTree = "<group>"; };
 		1395AFCEEB0D4DA2AAE08AE4 /* CDVLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; };
-		152E20283B03470DB989C0DA /* OneSignalReachability.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalReachability.m; path = "onesignal-cordova-plugin/OneSignalReachability.m"; sourceTree = "<group>"; };
 		16E38490AE7C4CAE86191BC0 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1788B318A3BA4FECB2E87C9B /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
 		1892BDD9783642429D0430CB /* CDVConnection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; };
@@ -82,8 +70,6 @@
 		1FCBDB6A557E46CCB53C1E5B /* CDVLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; };
 		2925D518D3594E8F86E2D271 /* CDVNotification.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D17BD960EE24DC3A92BB167 /* OneSignalTrackIAP.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalTrackIAP.h; path = "onesignal-cordova-plugin/OneSignalTrackIAP.h"; sourceTree = "<group>"; };
-		2F92652FCEFB4418A1212502 /* OneSignalPush.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalPush.m; path = "onesignal-cordova-plugin/OneSignalPush.m"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -96,22 +82,17 @@
 		43C0F6C38AA149079E4058BF /* CDVReachability.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
 		44927B8D6DB842A79209F3F1 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		45424001243842B1BFE6C0D6 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		48FF2CE1ED4F4F0CB16A06F1 /* OneSignalJailbreakDetection.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalJailbreakDetection.m; path = "onesignal-cordova-plugin/OneSignalJailbreakDetection.m"; sourceTree = "<group>"; };
 		4D2AEBDEF640430CB94ECA98 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
 		5914281C742F41C6B9176C6A /* CoreMotion.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		668D5AC2275047A2905ED3C6 /* CDVLocation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; };
 		6853FFDF00F541BA90ACF9BF /* CDVLocation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; };
-		6DE3981DCE1B4B639BB38775 /* OneSignalMobileProvision.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalMobileProvision.m; path = "onesignal-cordova-plugin/OneSignalMobileProvision.m"; sourceTree = "<group>"; };
 		70121A8EC7D34442A4AAE179 /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
 		70914374DDAA4805BDEC0ED7 /* CDVCompass.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVCompass.h; path = "cordova-plugin-device-orientation/CDVCompass.h"; sourceTree = "<group>"; };
 		72F636D5FEE54440B6D0BE6A /* CDVSplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
 		75869FE53CD94DF5BD4D087F /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
 		771DB308A3974A30BF69DBFF /* AddressBookUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		7E9D75300E42432FA236A01E /* CDVSound.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSound.m; path = "cordova-plugin-media/CDVSound.m"; sourceTree = "<group>"; };
-		7F706960727C42D0971B661D /* OneSignalHTTPClient.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalHTTPClient.m; path = "onesignal-cordova-plugin/OneSignalHTTPClient.m"; sourceTree = "<group>"; };
 		8905E7FAAB5142C3A2C48CC3 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
-		890A3A8009A748BD858F53B7 /* OneSignalTrackIAP.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalTrackIAP.m; path = "onesignal-cordova-plugin/OneSignalTrackIAP.m"; sourceTree = "<group>"; };
-		8930C7DDCFE2485EBC4EE8D4 /* OneSignalJailbreakDetection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalJailbreakDetection.h; path = "onesignal-cordova-plugin/OneSignalJailbreakDetection.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Narasimha Vijayam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Narasimha Vijayam-Info.plist"; path = "Narasimha Vijayam/Narasimha Vijayam-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		9238D0C2C1494E0BBB224EF8 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; };
 		94F22A8DB91D46F69098A3EB /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
@@ -121,17 +102,12 @@
 		9CC64EC8B58E41FEBD92022F /* CDVNotification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; };
 		A2D144711ED74B15AE74599B /* CDVSplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
 		BCDE5670E12448BAAE4B8EF5 /* CDVReachability.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVReachability.m; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; };
-		C06AFC41E3084E0983161735 /* OneSignalPush.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalPush.h; path = "onesignal-cordova-plugin/OneSignalPush.h"; sourceTree = "<group>"; };
 		C28A0C9FA4D545C5BD2D84F2 /* CDVGlobalization.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVGlobalization.h; path = "cordova-plugin-globalization/CDVGlobalization.h"; sourceTree = "<group>"; };
 		C2BF664F3C034D5598074F38 /* CDVConnection.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; };
-		C9F53998F51442BBBB605BA9 /* OneSignalReachability.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalReachability.h; path = "onesignal-cordova-plugin/OneSignalReachability.h"; sourceTree = "<group>"; };
-		CC9166F0BE774170B2D193F6 /* OneSignal.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignal.m; path = "onesignal-cordova-plugin/OneSignal.m"; sourceTree = "<group>"; };
 		CD657FA276DD47EB833C3701 /* ImageIO.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		CE1F2F320EBC42F2A276BCDF /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
 		CEEE2C3D4DA64D3E9BC8CC0E /* CDVGlobalization.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVGlobalization.m; path = "cordova-plugin-globalization/CDVGlobalization.m"; sourceTree = "<group>"; };
-		D2953178C0F2469288AB8EFC /* OneSignal.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignal.h; path = "onesignal-cordova-plugin/OneSignal.h"; sourceTree = "<group>"; };
 		D2D2FCA0E8CB48F0BA055E74 /* CDVSound.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = "cordova-plugin-media/CDVSound.h"; sourceTree = "<group>"; };
-		D8F9728EDE9843AB8A44360C /* OneSignalLocation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OneSignalLocation.m; path = "onesignal-cordova-plugin/OneSignalLocation.m"; sourceTree = "<group>"; };
 		D910E472E0024F9AB315B4FB /* CDVInAppBrowser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; };
 		D9A08A7CDC9349DF99E85C1C /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
 		E1CD56761FED4B7B82D332A3 /* CDVFileTransfer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFileTransfer.m; path = "cordova-plugin-file-transfer/CDVFileTransfer.m"; sourceTree = "<group>"; };
@@ -139,7 +115,6 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		F1A01419E48B4E5596B356F0 /* OneSignalLocation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OneSignalLocation.h; path = "onesignal-cordova-plugin/OneSignalLocation.h"; sourceTree = "<group>"; };
 		F2B264302E9D4170A179AE2B /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F75EA4A2FA5B46FF859ABBFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Narasimha Vijayam/config.xml"; sourceTree = "<group>"; };
@@ -300,22 +275,6 @@
 				70121A8EC7D34442A4AAE179 /* CDVStatusBar.h */,
 				E1CD56761FED4B7B82D332A3 /* CDVFileTransfer.m */,
 				F86FAC598F30421B8FBF6FFA /* CDVFileTransfer.h */,
-				CC9166F0BE774170B2D193F6 /* OneSignal.m */,
-				7F706960727C42D0971B661D /* OneSignalHTTPClient.m */,
-				890A3A8009A748BD858F53B7 /* OneSignalTrackIAP.m */,
-				48FF2CE1ED4F4F0CB16A06F1 /* OneSignalJailbreakDetection.m */,
-				2F92652FCEFB4418A1212502 /* OneSignalPush.m */,
-				152E20283B03470DB989C0DA /* OneSignalReachability.m */,
-				6DE3981DCE1B4B639BB38775 /* OneSignalMobileProvision.m */,
-				D8F9728EDE9843AB8A44360C /* OneSignalLocation.m */,
-				D2953178C0F2469288AB8EFC /* OneSignal.h */,
-				01652CFA3177428BBBEFF573 /* OneSignalHTTPClient.h */,
-				2D17BD960EE24DC3A92BB167 /* OneSignalTrackIAP.h */,
-				8930C7DDCFE2485EBC4EE8D4 /* OneSignalJailbreakDetection.h */,
-				C06AFC41E3084E0983161735 /* OneSignalPush.h */,
-				C9F53998F51442BBBB605BA9 /* OneSignalReachability.h */,
-				11EC9AE0BC9448FBB0D93A4D /* OneSignalMobileProvision.h */,
-				F1A01419E48B4E5596B356F0 /* OneSignalLocation.h */,
 			);
 			name = Plugins;
 			path = "Narasimha Vijayam/Plugins";
@@ -458,14 +417,6 @@
 				8B858DFE96214D65B1D19FAA /* CDVViewController+SplashScreen.m in Sources */,
 				DCB0698BAB2F48EF9FCBAAAB /* CDVStatusBar.m in Sources */,
 				43F31C902D334522B3EBD0B5 /* CDVFileTransfer.m in Sources */,
-				C69E6A63FEF94A7BA107B5F8 /* OneSignal.m in Sources */,
-				FAA45118C7E84F74A23066E0 /* OneSignalHTTPClient.m in Sources */,
-				D6EF38CEAA364CE4A97CBFBA /* OneSignalTrackIAP.m in Sources */,
-				3E2F1E8E29644DD899F4A1E1 /* OneSignalJailbreakDetection.m in Sources */,
-				13D4FE78E9E943E8BBCC32C1 /* OneSignalPush.m in Sources */,
-				9FC4444229484911BBB79734 /* OneSignalReachability.m in Sources */,
-				8954593C113F4566838885C6 /* OneSignalMobileProvision.m in Sources */,
-				4472B0F20665455A9FAE847F /* OneSignalLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
